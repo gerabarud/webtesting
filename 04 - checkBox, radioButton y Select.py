@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.support.ui import Select
 
-class FindElements(unittest.TestCase):
+class Options(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Firefox()
